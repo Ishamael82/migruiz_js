@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<!-- Uso de scripts -->
+	<script src="funciones/funciones.js" defer></script>
+  <!-- Metadatos del documento -->
+  <meta charset="utf-8"> <!-- Codificacion en UTF-8 para admitir caracteres en espanol -->
+  <meta name="viewport" content="width=device-width,initial-scale=1"> <!-- Adaptacion del diseno a pantallas moviles -->
+  <title>Programa - Feria de Viajes</title> <!-- Titulo que aparece en la pestana del navegador -->
+
+  <!-- Enlace a la hoja de estilos externa -->
+  <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body>
+  <!-- ================= CABECERA ================= -->
+  <header class="cabecera">
+    <!-- Logotipo de la feria -->
+    <img src="imagenes/logo_feria.jpg" alt="Logotipo Feria de Viajes" class="logo-small">
+    <!-- Titulo principal de esta pagina -->
+    <h1>Programa</h1>
+  </header>
+
+
+  <!-- ================= MENU DE NAVEGACION ================= -->
+  <nav class="menu">
+    <!-- Lista con los enlaces de navegacion del sitio -->
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="programa.html">Programa</a></li>
+      <li><a href="expositores.html">Expositores</a></li>
+      <li><a href="registro.html">Registro</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- ================= CONTENIDO PRINCIPAL ================= -->
+  <main class="contenido">
+    <!-- Subtitulo de la seccion principal -->
+    <h2>Agenda por dias</h2>
+    </br> <!-- Salto de linea para espaciado (puede reemplazarse por margen en CSS) -->
+
+    <!-- ---- TABLA DEL PROGRAMA ---- -->
+    <!-- Muestra la planificacion de actividades con sus horarios -->
+    <table class="tabla_programa">
+      <thead>
+        <!-- Cabecera de la tabla con los titulos de cada columna -->
+        <tr>
+          <th>Fecha</th>
+          <th>Hora</th>
+          <th>Actividad</th>
+          <th>Sala</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- Filas con las actividades programadas -->
+        <tr>
+          <td>15/11/2026</td>
+          <td>09:00 - 10:00</td>
+          <td>Inauguracion y bienvenida</td>
+          <td>Auditorio 1</td>
+        </tr>
+
+        <tr>
+          <td>16/11/2026</td>
+          <td>10:15 - 11:30</td>
+          <td>Conferencia: Tendencias 2026</td>
+          <td>Auditorio 1</td>
+        </tr>
+
+        <tr>
+          <td>18/11/2026</td>
+          <td>12:00 - 13:00</td>
+          <td>Conferencia: Viajes sostenibles</td>
+          <td>Auditorio 2</td>
+        </tr>
+
+        <tr>
+          <td>19/11/2026</td>
+          <td>14:00 - 14:30</td>
+          <td>Clausura y despedida</td>
+          <td>Auditorio 1</td>
+        </tr>
+      </tbody>
+    </table>
+    </br> <!-- Otro salto de linea final (opcional, se puede controlar con CSS) -->
+  </main>
+
+
+  <!-- ================= PIE DE PAGINA ================= -->
+  <footer>
+    <!-- Derechos de autor y enlace a la pagina de contacto -->
+    <p>c 2025 Feria Let`s Travel ¡X <a href="contacto.html">Contacto</a></p>
+    
+    <!-- Enlace externo al patrocinador -->
+    <p>
+      Patrocinado por:
+      <a href="https://www.birt.eus/"id="enlace-birtlh" target="_blank" rel="noopener">
+        Viajes BIRTLH 
+      </a>
+    </p>
+	<p id="mensaje-hover" style="color: #0b6db0; font-weight: bold;"></p>
+  </footer>
+</body>
+</html>

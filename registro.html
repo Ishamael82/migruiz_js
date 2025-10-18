@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<!-- Uso de scripts -->
+	<script src="funciones/funciones.js" defer></script>
+  <!--  Metadatos del documento -->
+  <meta charset="utf-8"> <!-- Codificacion de caracteres -->
+  <meta name="viewport" content="width=device-width,initial-scale=1"> <!-- Adaptacion a pantallas moviles -->
+  <title>Registro - Feria de Viajes</title> <!-- Titulo que se muestra en la pestana del navegador -->
+
+  <!-- Enlace a la hoja de estilos CSS comun a todo el sitio -->
+  <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body>
+  <!-- ================= CABECERA ================= -->
+  <header class="cabecera">
+    <!-- Logotipo principal -->
+    <img src="imagenes/logo_feria.jpg" alt="Logotipo Feria de Viajes" class="logo-small">
+    <!-- Titulo de la pagina -->
+    <h1>Registro de asistentes</h1>
+  </header>
+
+  <!-- ================= MENU DE NAVEGACION ================= -->
+  <nav class="menu">
+    <!-- Lista con enlaces a todas las secciones del sitio -->
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="programa.html">Programa</a></li>
+      <li><a href="expositores.html">Expositores</a></li>
+      <li><a href="registro.html">Registro</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- ================= CONTENIDO PRINCIPAL ================= -->
+  <main class="contenido">
+    <!-- Seccion del formulario -->
+    <section>
+      <h2>Formulario de inscripcion</h2>
+
+      <!-- FORMULARIO -->
+      <!-- El atributo action usa "mailto:" para abrir el cliente de correo del usuario -->
+      <form action="mailto:tuemail@dominio.com" method="post" enctype="text/plain" class="form-registro">
+
+        <!-- Campo de texto: nombre completo -->
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="Nombre" required>
+
+        <!-- Campo de texto: correo electronico -->
+        <label for="email">Correo electronico</label>
+        <input type="email" id="email" name="Correo" required>
+
+        <!-- Lista desplegable: tipo de entrada -->
+        <label for="tipo">Tipo de entrada</label>
+        <select id="tipo" name="Tipo de entrada">
+          <option>General</option>
+          <option>Estudiante</option>
+          <option>Profesional</option>
+        </select>
+
+        <!-- Conjunto de opciones multiples -->
+        <fieldset>
+          <legend>Intereses</legend>
+          <!-- Cada checkbox representa una categoria -->
+          <label><input type="checkbox" name="interes" value="cultura"> Turismo cultural</label>
+          <label><input type="checkbox" name="interes" value="aventura"> Turismo de aventura</label>
+          <label><input type="checkbox" name="interes" value="playa"> Sol y playa</label>
+        </fieldset>
+
+        <!-- Campo de texto de varias lineas para comentarios -->
+        <label for="comentarios">Comentarios</label>
+        <textarea id="comentarios" name="Comentarios" rows="4" cols="240" placeholder="Comentarios"></textarea>
+
+        <!-- Botones de envio y reseteo -->
+        <div class="botones">
+          <button type="submit">Enviar inscripcion</button>
+          <button type="reset">Limpiar</button>
+        </div>
+      </form>
+
+      <!-- Nota informativa sobre el envio del formulario -->
+      <p>
+        Nota: al pulsar "Enviar inscripcion" se abrira la ventana de correo del sistema con los datos
+        (no se garantiza envio automatico desde el navegador).
+      </p>
+    </section>
+  </main>
+
+   <!-- ================= PIE DE PAGINA ================= -->
+  <footer>
+    <!-- Derechos de autor y enlace a la pagina de contacto -->
+    <p>c 2025 Feria Let`s Travel ¡X <a href="contacto.html">Contacto</a></p>
+    
+    <!-- Enlace externo al patrocinador -->
+    <p>
+      Patrocinado por:
+      <a href="https://www.birt.eus/"id="enlace-birtlh" target="_blank" rel="noopener">
+        Viajes BIRTLH 
+      </a>
+    </p>
+	<p id="mensaje-hover" style="color: #0b6db0; font-weight: bold;"></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<!-- 🔹 Uso de scripts -->
+	<script src="funciones/funciones.js" defer></script>
+  <!-- 🔹 Metadatos básicos del documento -->
+  <meta charset="utf-8"> <!-- Codificación UTF-8 para caracteres especiales -->
+  <meta name="viewport" content="width=device-width,initial-scale=1"> <!-- Adaptación a dispositivos móviles -->
+  <title>Expositores - Feria de Viajes</title> <!-- Título que aparece en la pestaña del navegador -->
+
+  <!-- 🔹 Enlace a la hoja de estilos externa -->
+  <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body>
+  <!-- ================= CABECERA ================= -->
+  <header class="cabecera">
+    <!-- Logotipo de la feria -->
+    <img src="imagenes/logo_feria.jpg" alt="Logo Feria" class="logo-small">
+    <!-- Título principal de la página -->
+    <h1>Expositores</h1>
+  </header>
+
+  <!-- ================= MENÚ DE NAVEGACIÓN ================= -->
+  <nav class="menu">
+    <!-- Lista con los enlaces del sitio -->
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="programa.html">Programa</a></li>
+      <li><a href="expositores.html">Expositores</a></li>
+      <li><a href="registro.html">Registro</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- ================= CONTENIDO PRINCIPAL ================= -->
+  <main class="contenido">
+
+    <!-- ---- SECCIÓN DE EXPOSITORES DESTACADOS ---- -->
+    <section>
+      <h2>Participantes destacados</h2>
+
+      <!-- Lista no ordenada con los expositores principales -->
+      <!-- La clase 'grid-expositores' puede usarse en CSS para distribuirlos en columnas -->
+      <ul class="grid-expositores">
+
+        <!-- Primer expositor -->
+        <li>
+          <img src="imagenes/expositor_1.jpg" alt="Stands de Agencias" class="thumb">
+          <h4>Agencia Sol</h4>
+          <p>Ofertas exclusivas en viajes a Europa.</p>
+        </li>
+
+        <!-- Segundo expositor -->
+        <li>
+          <img src="imagenes/expositor_2.jpg" alt="Stand operador" class="thumb">
+          <h4>Oceanic Tours</h4>
+          <p>Cruceros y paquetes familiares.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ---- SECCIÓN CON LISTA ORDENADA ---- -->
+    <section>
+      <h3>Lista de expositores</h3>
+
+      <!-- Lista ordenada de participantes -->
+      <ol>
+        <li>Agencia Sol</li>
+        <li>Oceanic Tours</li>
+        <li>Destino Verde</li>
+      </ol>
+    </section>
+  </main>
+
+
+  <!-- ================= PIE DE PÁGINA ================= -->
+  <footer>
+    <!-- Derechos de autor y enlace a la página de contacto -->
+    <p>© 2025 Feria Let`s Travel — <a href="contacto.html">Contacto</a></p>
+    
+    <!-- Enlace externo al patrocinador -->
+    <p>
+      Patrocinado por:
+      <a href="https://www.birt.eus/"id="enlace-birtlh" target="_blank" rel="noopener">
+        Viajes BIRTLH 
+      </a>
+    </p>
+	<p id="mensaje-hover" style="color: #0b6db0; font-weight: bold;"></p>
+  </footer>
+</body>
+</html>
