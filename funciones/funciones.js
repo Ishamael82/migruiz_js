@@ -73,3 +73,14 @@ enlace.addEventListener("mouseout", () => {
 });
 
 // ===CONTACTO (contacto.html) ===
+// Al clickar en el mapa nos lleva a Google maps
+document.addEventListener("DOMContentLoaded", () => {
+  const mapa = document.getElementById("mapa-feria");
+
+  if (mapa) {
+    mapa.addEventListener("click", () => {
+      // Redirige a la URL deseada
+      window.location.href = "https://www.birtlh.eus/";
+    });
+  }
+});
