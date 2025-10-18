@@ -76,7 +76,7 @@ enlace.addEventListener("mouseout", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const comentarios = document.getElementById("comentarios");
   const contador = document.getElementById("contador");
-  const maxCaracteres = 500;
+  const maxCaracteres = 240;
 
   if (comentarios && contador) {
     comentarios.addEventListener("input", () => {
