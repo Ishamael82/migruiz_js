@@ -58,20 +58,6 @@ if (document.title.includes("Expositores")) {
 
 
 
-// ===REGISTRO (registro.html) ===
-// Muestra un mensaje al pasar el raton sobre el enlace a BIRT
-
-const enlace = document.getElementById("enlace-birtlh");
-const mensaje = document.getElementById("mensaje-hover");
-
-enlace.addEventListener("mouseover", () => {
-  mensaje.textContent = "🌍 ¡Visita la web oficial de BirtLH!";
-});
-
-enlace.addEventListener("mouseout", () => {
-  mensaje.textContent = ""; // borra el mensaje al salir del enlace
-});
-
 // Muestra el numero de caracteres restantes al escribir en el campo de comentarios.
 document.addEventListener("DOMContentLoaded", () => {
   const comentarios = document.getElementById("comentarios");
@@ -105,4 +91,18 @@ document.addEventListener("DOMContentLoaded", () => {
       window.location.href = "https://www.google.com/maps/place/Bilbao+Exhibition+Centre+(BEC)/@43.290582,-2.9921134,17z/data=!3m2!4b1!5s0xd4e506b82c39e51:0x25bc9552401ed833!4m6!3m5!1s0xd4e5a77d9b1bbf7:0x1aeb68f4b3df2298!8m2!3d43.2905781!4d-2.9895385!16s%2Fm%2F0cnzycx?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D";
     });
   }
+});
+
+// ===GENERAL (registro.html) ===
+// Muestra un mensaje al pasar el raton sobre el enlace a BIRT
+
+const enlace = document.getElementById("enlace-birtlh");
+const mensaje = document.getElementById("mensaje-hover");
+
+enlace.addEventListener("mouseover", () => {
+  mensaje.textContent = "🌍 ¡Visita la web oficial de BirtLH!";
+});
+
+enlace.addEventListener("mouseout", () => {
+  mensaje.textContent = ""; // borra el mensaje al salir del enlace
 });
