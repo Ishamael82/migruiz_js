@@ -72,6 +72,28 @@ enlace.addEventListener("mouseout", () => {
   mensaje.textContent = ""; // borra el mensaje al salir del enlace
 });
 
+// Muestra el numero de caracteres restantes al escribir en el campo de comentarios.
+document.addEventListener("DOMContentLoaded", () => {
+  const comentarios = document.getElementById("comentarios");
+  const contador = document.getElementById("contador");
+  const maxCaracteres = 500;
+
+  if (comentarios && contador) {
+    comentarios.addEventListener("input", () => {
+      const usados = comentarios.value.length;
+      contador.textContent = `${usados} / ${maxCaracteres} caracteres`;
+
+      // Cambia el color del texto si se acerca al límite
+      if (usados > maxCaracteres * 0.9) {
+        contador.style.color = "red";
+      } else {
+        contador.style.color = "#333";
+      }
+    });
+  }
+});
+
+
 // ===CONTACTO (contacto.html) ===
 // Al clickar en el mapa nos lleva a Google maps
 document.addEventListener("DOMContentLoaded", () => {
