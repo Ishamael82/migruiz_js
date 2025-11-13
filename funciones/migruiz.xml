@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<congreso xmlns="http://birtlh.com/congreso" xmlns:meta="http://birtlh.com/meta">
+  <meta:informacion>
+    <meta:nombre>Congreso de medicina coronaria</meta:nombre>
+    <meta:fechaInicio>2025-11-10</meta:fechaInicio>
+    <meta:fechaFin>2025-11-14</meta:fechaFin>
+    <meta:lugar>Bilbao,Bizkaia</meta:lugar>
+  </meta:informacion>
+
+
+  <evento tipo="Conferencia" id="E001">
+    <titulo>Avances en cirugía coronaria</titulo>
+    <ponente>Dr. Juan Pérez</ponente>
+    <hora>09:00</hora>
+    <duracion>2h</duracion>
+  </evento>
+
+  <evento tipo="Taller">
+    <titulo>Técnicas de cateterismo</titulo>
+    <ponentes>
+      <ponente>
+        <nombre>Dra. Ana López</nombre>
+        <especialidad>Cardiología intervencionista</especialidad>
+        <experiencia>
+          <años>15</años>
+          <institucion>Hospital clínico Madrid</institucion>
+        </experiencia>
+      </ponente>
+    </ponentes>
+    <hora>11:30</hora>
+    <duracion>3h</duracion>
+  </evento>
+
+  <evento tipo="MesaRedonda">
+    <titulo>Innovaciones en cardiología</titulo>
+    <moderador>Dr. Luis Gómez</moderador>
+    <participantes>
+      <ponente>Dra. Marta Ruiz</ponente>
+      <ponente>Dr. Carlos Fernández</ponente>
+    </participantes>
+    <hora>15:00</hora>
+    <duracion>1h 30m</duracion>
+  </evento>
+
+  <evento tipo="Conferencia" id="E002">
+    <titulo>Prevención de enfermedades coronarias</titulo>
+    <ponente>Dr. Pablo Sánchez</ponente>
+    <hora>10:00</hora>
+    <duracion>1h</duracion>
+  </evento>
+
+  <evento tipo="Taller">
+    <titulo>Interpretación de electrocardiogramas</titulo>
+    <ponente>Dra. Laura Moreno</ponente>
+    <hora>13:00</hora>
+    <duracion>2h</duracion>
+  </evento>
+
+  <evento tipo="MesaRedonda">
+    <titulo>Debate sobre tratamientos emergentes</titulo>
+    <moderador>Dra. Isabel Torres</moderador>
+    <participantes>
+      <ponente>Dr. Jorge Martínez</ponente>
+      <ponente>Dra. Carmen Díaz</ponente>
+    </participantes>
+    <hora>16:45</hora>
+    <duracion>1h</duracion>
+  </evento>
+
+  <evento tipo="Conferencia" id="E003">
+    <titulo>Rehabilitación cardíaca post-cirugía</titulo>
+    <ponente>Dra. Patricia Herrera</ponente>
+    <hora>12:00</hora>
+    <duracion>1h 30m</duracion>
+  </evento>
+
+</congreso>
