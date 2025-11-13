@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Actualizaciones Let`s Travel</title>
+    <link>https://ishamael82.github.io/migruiz_js/</link>
+    <description>Últimas novedades y actualizaciones de la feria de viajes Let´s Travel.</description>
+    <language>es-es</language>
+    <lastBuildDate>Thu, 13 Nov 2025 12:00:00 +0100</lastBuildDate>
+
+    <item>
+      <title>Actualizacion de la página de inicio</title>
+      <link>https://ishamael82.github.io/migruiz_js/index.html</link>
+      <description>Página actualizada con loas últimas novedades de la feria.</description>
+      <pubDate>Thu, 13 Nov 2025 10:30:00 +0100</pubDate>
+      <guid>001</guid>
+    </item>
+
+    <item>
+      <title>Nuevas fechas y eventos</title>
+      <link>https://ishamael82.github.io/migruiz_js/index.html</link>
+      <description>Nuevas fechas y eventos añadidos.</description>
+      <pubDate>Thu, 13 Nov 2025 11:15:00 +0100</pubDate>
+      <guid>002<guid>
+    </item>
+
+  </channel>
+</rss>
