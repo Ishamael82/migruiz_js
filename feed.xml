@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
+ xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Actualizaciones Let`s Travel</title>
     <link>https://ishamael82.github.io/migruiz_js/</link>
     <description>Últimas novedades y actualizaciones de la feria de viajes Let´s Travel.</description>
-    <language>es-es</language>
+     <atom:link href="https://ishamael82.github.io/migruiz_js/feed.xml" rel="self" type="application/rss+xml" />
+	<language>es-es</language>
     <lastBuildDate>Thu, 13 Nov 2025 12:00:00 +0100</lastBuildDate>
 
     <item>
