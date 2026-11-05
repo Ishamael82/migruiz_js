@@ -2,7 +2,7 @@
 <rss version="2.0">
   <channel>
     <title>Gran Premio de Euskadi — Novedades y Actualidad</title>
-    <link>http://www.tudominio.com/index.html</link>
+    <link>https://ishamael82.github.io/migruiz_js/index.html</link>
     <description>Canal oficial de noticias e información relevante sobre el Gran Premio de Euskadi de F1.</description>
     <language>es-ES</language>
     <pubDate>Thu, 05 Nov 2026 17:34:00 +0100</pubDate>
@@ -11,19 +11,19 @@
     <!-- ITEM 1: Novedad relativa a la página principal (index.html) -->
     <item>
       <title>¡Presentación Oficial del Gran Premio de Euskadi!</title>
-      <link>http://www.tudominio.com/index.html</link>
+      <link>https://ishamael82.github.io/migruiz_js/index.html</link>
       <description>Por primera vez en la historia se celebrará en Euskadi un Gran Premio de F1 los días 20, 21 y 22 de Noviembre. Descubre todos los detalles en nuestra página de inicio.</description>
       <pubDate>Thu, 05 Nov 2026 17:30:00 +0100</pubDate>
-      <guid>http://www.tudominio.com/index.html#novedad-presentacion</guid>
+      <guid>https://ishamael82.github.io/migruiz_js/index.html#novedad-presentacion</guid>
     </item>
 
     <!-- ITEM 2: Novedad relativa a la página del programa (programa.html) -->
     <item>
       <title>Publicada la Agenda Detallada y Horarios Oficiales</title>
-      <link>http://www.tudominio.com/programa.html</link>
+      <link>https://ishamael82.github.io/migruiz_js/programa.html</link>
       <description>Ya puedes consultar la programación completa de las sesiones de entrenamientos libres, la tanda de cualificación (Q1, Q2, Q3) y la carrera oficial del domingo.</description>
       <pubDate>Thu, 05 Nov 2026 16:00:00 +0100</pubDate>
-      <guid>http://www.tudominio.com/programa.html#novedad-agenda</guid>
+      <guid>https://ishamael82.github.io/migruiz_js/programa.html#novedad-agenda</guid>
     </item>
 
   </channel>
